@@ -33,14 +33,14 @@
             <div class="col-xs-1 col-sm-2">
               <div style="position:relative;left:-15px;" class="circle-button red-circle phone"></div>
             </div>
-            <div class="col-xs-11 col-sm-10 search-text">ПОИСК ПРЕПОДАВАТЕЛЯ</div>
+            <div class="col-xs-11 col-sm-10 search-text"><?=trans("base.search_t");?></div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
           <div class="block column">
-            <div class="block-title">ПОСЛЕДНИЕ ПРЕПОДАВАТЕЛИ</div>
+            <div class="block-title"><?=trans("base.past_t");?></div>
             <div class="block-content">
               <div class="container-fluid">
                 <div class="block-elem">
@@ -51,7 +51,7 @@
                       </div>
                       <div class="col-xs-8 teacher-data">
                         <div class="teacher-nickname">Katherine Beck</div>
-                        <div class="teacher-last"><span class="last-key">Последний звонок:</span><span class="last-value">Вчера</span></div>
+                        <div class="teacher-last"><span class="last-key"><?=trans("base.past_call");?>:</span><span class="last-value">Вчера</span></div>
                       </div>
                     </div>
                     <div style="text-align:right;" class="col-xs-4">
@@ -68,7 +68,7 @@
                       </div>
                       <div class="col-xs-8 teacher-data">
                         <div class="teacher-nickname">Mary Myers</div>
-                        <div class="teacher-last"><span class="last-key">Последний звонок:</span><span class="last-value">2 дня назад</span></div>
+                        <div class="teacher-last"><span class="last-key"><?=trans("base.past_call");?>:</span><span class="last-value">2 дня назад</span></div>
                       </div>
                     </div>
                     <div style="text-align:right;" class="col-xs-4">
@@ -85,7 +85,7 @@
                       </div>
                       <div class="col-xs-8 teacher-data">
                         <div class="teacher-nickname">Olivia Payne</div>
-                        <div class="teacher-last"><span class="last-key">Последний звонок:</span><span class="last-value">6 дней назад</span></div>
+                        <div class="teacher-last"><span class="last-key"><?=trans("base.past_call");?>:</span><span class="last-value">6 дней назад</span></div>
                       </div>
                     </div>
                     <div style="text-align:right;" class="col-xs-4">
@@ -102,7 +102,7 @@
                       </div>
                       <div class="col-xs-8 teacher-data">
                         <div class="teacher-nickname">Jessica Ray</div>
-                        <div class="teacher-last"><span class="last-key">Последний звонок:</span><span class="last-value">1 неделю назад</span></div>
+                        <div class="teacher-last"><span class="last-key"><?=trans("base.past_call");?>:</span><span class="last-value">1 неделю назад</span></div>
                       </div>
                     </div>
                     <div style="text-align:right;" class="col-xs-4">
@@ -119,7 +119,7 @@
                       </div>
                       <div class="col-xs-8 teacher-data">
                         <div class="teacher-nickname">Brittany Black</div>
-                        <div class="teacher-last"><span class="last-key">Последний звонок:</span><span class="last-value">2 недели назад</span></div>
+                        <div class="teacher-last"><span class="last-key"><?=trans("base.past_call");?>:</span><span class="last-value">2 недели назад</span></div>
                       </div>
                     </div>
                     <div style="text-align:right;" class="col-xs-4">
@@ -136,7 +136,7 @@
                       </div>
                       <div class="col-xs-8 teacher-data">
                         <div class="teacher-nickname">Lisa Rodriguez</div>
-                        <div class="teacher-last"><span class="last-key">Последний звонок:</span><span class="last-value">месяц назад</span></div>
+                        <div class="teacher-last"><span class="last-key"><?=trans("base.past_call");?>:</span><span class="last-value">месяц назад</span></div>
                       </div>
                     </div>
                     <div style="text-align:right;" class="col-xs-4">
@@ -147,14 +147,14 @@
                 </div>
               </div>
               <div class="row">
-                <div style="text-align:center;padding:20px;" class="col-md-12"><a href="{{url('/teachers')}}" class="link">ВСЕ ПРЕПОДАВАТЕЛИ</a></div>
+                <div style="text-align:center;padding:20px;" class="col-md-12"><a href="{{url('/teachers')}}" class="link"><?=trans("base.all_t");?></a></div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="block column">
-            <div class="block-title">ИСТОРИЯ</div>
+            <div class="block-title"><?=trans("base.history");?></div>
             <div class="block-content">
               <div class="container-fluid">
                 <div class="row left-message">
@@ -164,7 +164,7 @@
                     <div class="tool right orange-tool col-xs-8">
                       <div class="tool-arrow"></div>
                       <div class="tool-inner">
-                        <div class="tool-new-message-right"></div><img src="/img/phone.svg" class="iconMessage"><span>Звонок начался...</span>
+                        <div class="tool-new-message-right"></div><img src="/img/phone.svg" class="iconMessage"><span><?=trans("base.call_start");?>...</span>
                       </div>
                     </div>
                     <div class="clear"></div>
@@ -212,7 +212,7 @@
                     <div class="tool right orange-tool col-xs-8">
                       <div class="tool-arrow"></div>
                       <div class="tool-inner">
-                        <div class="tool-new-message-right"></div><img src="/img/phone_down_white.svg" class="iconMessage"><span>Звонок закончился...</span>
+                        <div class="tool-new-message-right"></div><img src="/img/phone_down_white.svg" class="iconMessage"><span><?=trans("base.call_end");?>...</span>
                       </div>
                     </div>
                     <div class="clear"></div>

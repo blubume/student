@@ -30,11 +30,11 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <div style="padding-left:50px;padding-right:50px;" class="block">
-            <div class="block-title">ПРЕПОДАВАТЕЛИ</div>
+            <div class="block-title"><?=trans("base.menu_3");?></div>
             <div style="overflow: auto;" class="block-content"></div>
             <div class="row">
               <div class="col-md-12">
-                <div class="sort-block"><a href="" class="sort-elem active">ОНЛАЙН</a><a href="" class="sort-elem">ВСЕ</a></div>
+                <div class="sort-block"><a href="" class="sort-elem active"><?=trans("base.online");?></a><a href="" class="sort-elem"><?=trans("base.all");?></a></div>
               </div>
             </div>
             <div class="row teacher-block">
@@ -47,17 +47,17 @@
                 <div class="teacher-nickname">Katherine Beck</div>
                 <table class="table info-teacher">
                   <tr>
-                    <td>Профессия</td>
+                    <td><?=trans("base.prof");?></td>
                     <td>Academic English Teacher and Professional Corporate Trainer</td>
                   </tr>
                   <tr>
-                    <td>Интересы</td>
+                    <td>Инте</td>
                     <td>
                       <div class="orangeTag">Sport</div>
                     </td>
                   </tr>
                   <tr>
-                    <td>Образование</td>
+                    <td><?=trans("base.educations");?></td>
                     <td>University of Alberta Canada</td>
                   </tr>
                 </table>
@@ -76,17 +76,17 @@
                 <div class="teacher-nickname">Diane Mendoza</div>
                 <table class="table info-teacher">
                   <tr>
-                    <td>Профессия</td>
+                    <td><?=trans("base.prof");?></td>
                     <td>Academic English Teacher and Professional Corporate Trainer</td>
                   </tr>
                   <tr>
-                    <td>Интересы</td>
+                    <td><?=trans("base.interes");?></td>
                     <td>
                       <div class="orangeTag">Sport</div>
                     </td>
                   </tr>
                   <tr>
-                    <td>Образование</td>
+                    <td><?=trans("base.educations");?></td>
                     <td>University of Alberta Canada</td>
                   </tr>
                 </table>
@@ -105,17 +105,17 @@
                 <div class="teacher-nickname">Rachel Scott</div>
                 <table class="table info-teacher">
                   <tr>
-                    <td>Профессия</td>
+                    <td><?=trans("base.prof");?></td>
                     <td>Academic English Teacher and Professional Corporate Trainer</td>
                   </tr>
                   <tr>
-                    <td>Интересы</td>
+                    <td><?=trans("base.interes");?></td>
                     <td>
                       <div class="orangeTag">Sport</div>
                     </td>
                   </tr>
                   <tr>
-                    <td>Образование</td>
+                    <td><?=trans("base.educations");?></td>
                     <td>University of Alberta Canada</td>
                   </tr>
                 </table>

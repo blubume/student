@@ -33,3 +33,5 @@ Route::get('/teachers', function () {
 Route::get('/teachers/view', function () {
     return view('teachers-view');
 });
+
+Route::get('/update_lang', 'HomeController@updateLang');

@@ -30,8 +30,8 @@
       <div class="row">
         <div class="col-md-12 owner">
           <ul class="nav nav-tabs tabMenu">
-            <li class="active"><a href="#home" data-toggle="tab">Баланс</a></li>
-            <li><a href="#profile" data-toggle="tab">История</a></li>
+            <li class="active"><a href="#home" data-toggle="tab"><?=trans("base.balance");?></a></li>
+            <li><a href="#profile" data-toggle="tab"><?=trans("base.history");?></a></li>
           </ul>
         </div>
       </div>
@@ -40,10 +40,10 @@
           <div class="row">
             <div class="col-md-6 col-md-offset-3">
               <div class="block">
-                <div style="font-size: 18px;" class="block-title">ТВОЯ ПОДПИСКА</div>
+                <div style="font-size: 18px;" class="block-title"><?=trans("base.you_subscribe");?></div>
                 <div class="row">
                   <div class="col-md-12">
-                    <div class="subscribe-info"><span class="min-day-info">30 </span> МИН В ДЕНЬ  | ОСТАЛОСЬ <span class="min-info">530</span> МИНУТ |  ИСТЕКАЕТ ЧЕРЕЗ <span class="days-info">14</span> ДНЕЙ</div>
+                    <div class="subscribe-info"><span class="min-day-info">30 </span> <?=trans("base.min_day");?> <span class="min-info">530</span> <?=trans("base.min_end");?> <span class="days-info">14</span> <?=trans("base.days");?></div>
                   </div>
                 </div>
               </div>
@@ -52,8 +52,8 @@
           <div class="row">
             <div class="col-md-4 col-md-offset-1">
               <div style="position:relative;" class="block column">
-                <div class="block-title bigTitle">ВЫБЕРИ ЖЕЛАЕМОЕ КОЛИЧЕСТВО МИНУТ
-                  <div data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Покупай любое кол-во минут (от 5 и больше) и пользуйся ими когда тебе удобно!" class="issue-form tooltipInfo">?</div>
+                <div class="block-title bigTitle"><?=trans("base.select_minutes");?>
+                  <div data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<?=trans("base.desc_minutes");?>" class="issue-form tooltipInfo">?</div>
                 </div>
                 <div class="block-content buyBlock">
                   <div class="row">
@@ -67,8 +67,8 @@
                 <div class="block-content buyButtonBlock">
                   <div class="row">
                     <div style="text-align:center;" class="col-sm-12">
-                      <div class="info-buy">К ОПЛАТЕ <span>150.00 РУБ</span></div>
-                      <button type="button" data-toggle="modal" data-target=".modal-register" style="padding: 15px 40px; font-size: 15px;font-family:'LatoLight'" class="btn btn-danger">ОПЛАТИТЬ</button>
+                      <div class="info-buy"><?=trans("base.to_pay");?> <span>150.00 <?=trans("base.rub");?></span></div>
+                      <button type="button" data-toggle="modal" data-target=".modal-register" style="padding: 15px 40px; font-size: 15px;font-family:'LatoLight'" class="btn btn-danger"><?=trans("base.pay");?></button>
                     </div>
                   </div>
                 </div>
@@ -76,15 +76,15 @@
             </div>
             <div class="col-md-6">
               <div style="text-align: center;" class="block column">
-                <div style="display:inline-block;" class="block-title bigTitle"><span>ОФОРМИ ПОДПИСКУ
-                    <div data-html="true" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Подписка – отличный способ экономии и мотивации! Выбери сколько минут в день и сколько раз неделю ты хочешь практиковаться, и получи необходимое кол-во минут на месяц со скидкой. К примеру, подписка на 30 минут в день, 3 раза в неделю даст тебе 360 минут на месяц.&lt;br&gt;При этом, ты не можешь использовать больше 30 минут в день, но можешь при желании практиковать английский не 3, а 4 раза в неделю – тогда подписка закончится быстрее.&lt;br&gt;Неиспользованные минуты сгорают в конце месяца." class="issue-form tooltipInfo">?</div></span>
+                <div style="display:inline-block;" class="block-title bigTitle"><span><?=trans("base.create_subscribe");?>
+                    <div data-html="true" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<?=trans("base.desc_subscribe");?>" class="issue-form tooltipInfo">?</div></span>
                   <div class="arrow-block">
-                    <div class="text">ЭТО ВЫГОДНО</div><img src="/img/redo.svg">
+                    <div class="text"><?=trans("base.profit");?></div><img src="/img/redo.svg">
                   </div>
                 </div>
                 <div class="block-content">
                   <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2 title-subscribe">СКОЛЬКО МИНУТ В ДЕНЬ?</div>
+                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2 title-subscribe"><?=trans("base.min_in_day");?>?</div>
                   </div>
                   <div class="row">
                     <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2">
@@ -100,7 +100,7 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2 title-subscribe">СКОЛЬКО РАЗ В НЕДЕЛЮ?</div>
+                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2 title-subscribe"><?=trans("base.min_in_week");?>?</div>
                   </div>
                   <div class="row">
                     <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2">
@@ -117,9 +117,9 @@
                   </div>
                   <div class="row">
                     <div style="text-align:center;margin-top:40px;" class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-8 col-lg-offset-2">
-                      <div class="info-data"><br><span class="min-day">15</span> МИН В ДЕНЬ | <span class="day_week">3</span> РАЗА В НЕДЕЛЮ | НА <span class="days_d">30</span> ДНЕЙ</div><br>
-                      <div class="payment-data">К ОПЛАТЕ <span class="payment_num">1 500.00</span><span class="currency"> РУБ</span></div><br>
-                      <button type="button" data-toggle="modal" data-target=".modal-register" style="padding: 15px 40px; margin-top:50px;font-size: 15px;font-family:'LatoLight'" class="btn btn-danger">ОПЛАТИТЬ</button>
+                      <div class="info-data"><br><span class="min-day">15</span> <?=trans("base.day_min");?> | <span class="day_week">3</span><?=trans("base.col_in_week");?><span class="days_d">30</span> <?=trans("base.days");?></div><br>
+                      <div class="payment-data"><?=trans("base.to_pay");?> <span class="payment_num">1 500.00</span><span class="currency"> <?=trans("base.rub");?></span></div><br>
+                      <button type="button" data-toggle="modal" data-target=".modal-register" style="padding: 15px 40px; margin-top:50px;font-size: 15px;font-family:'LatoLight'" class="btn btn-danger"><?=trans("base.pay");?></button>
                     </div>
                   </div>
                 </div>
@@ -131,58 +131,58 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <div class="block">
-                <div class="block-title">ИСТОРИЯ</div>
+                <div class="block-title"><?=trans("base.history");?></div>
                 <div style="padding-left:20px;padding-right:20px;overflow: auto;" class="block-content">
                   <table class="table table-data">
                     <thead>
                       <tr>
-                        <td>СУММА</td>
-                        <td>КОЛ-ВО МИНУТ</td>
-                        <td>СТАТУС</td>
-                        <td>ДАТА</td>
+                        <td><?=trans("base.amount");?></td>
+                        <td><?=trans("base.col_minutes");?></td>
+                        <td><?=trans("base.status");?></td>
+                        <td><?=trans("base.date");?></td>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td class="balance">150.00 РУБ</td>
+                        <td class="balance">150.00 <?=trans("base.rub");?></td>
                         <td class="minute">12</td>
-                        <td class="status_ok">УСПЕШНО</td>
+                        <td class="status_ok"><?=trans("base.ok");?></td>
                         <td class="date">12.12.16 12:53</td>
                       </tr>
                       <tr>
-                        <td class="balance">150.00 РУБ</td>
+                        <td class="balance">150.00 <?=trans("base.rub");?></td>
                         <td class="minute">12</td>
-                        <td class="status_proccess">В ПРОЦЕССЕ</td>
+                        <td class="status_proccess"><?=trans("base.proccess");?></td>
                         <td class="date">12.12.16 12:53</td>
                       </tr>
                       <tr>
-                        <td class="balance">150.00 РУБ</td>
+                        <td class="balance">150.00 <?=trans("base.rub");?></td>
                         <td class="minute">12</td>
-                        <td class="status_error">ОШИБКА</td>
+                        <td class="status_error"><?=trans("base.error");?></td>
                         <td class="date">12.12.16 12:53</td>
                       </tr>
                       <tr>
-                        <td class="balance">150.00 РУБ</td>
+                        <td class="balance">150.00 <?=trans("base.rub");?></td>
                         <td class="minute">12</td>
-                        <td class="status_ok">УСПЕШНО</td>
+                        <td class="status_ok"><?=trans("base.ok");?></td>
                         <td class="date">12.12.16 12:53</td>
                       </tr>
                       <tr>
-                        <td class="balance">150.00 РУБ</td>
+                        <td class="balance">150.00 <?=trans("base.rub");?></td>
                         <td class="minute">12</td>
-                        <td class="status_ok">УСПЕШНО</td>
+                        <td class="status_ok"><?=trans("base.ok");?></td>
                         <td class="date">12.12.16 12:53</td>
                       </tr>
                       <tr>
-                        <td class="balance">150.00 РУБ</td>
+                        <td class="balance">150.00 <?=trans("base.rub");?></td>
                         <td class="minute">12</td>
-                        <td class="status_ok">УСПЕШНО</td>
+                        <td class="status_ok"><?=trans("base.ok");?></td>
                         <td class="date">12.12.16 12:53</td>
                       </tr>
                       <tr>
-                        <td class="balance">150.00 РУБ</td>
+                        <td class="balance">150.00 <?=trans("base.rub");?></td>
                         <td class="minute">12</td>
-                        <td class="status_ok">УСПЕШНО</td>
+                        <td class="status_ok"><?=trans("base.ok");?></td>
                         <td class="date">12.12.16 12:53</td>
                       </tr>
                     </tbody>

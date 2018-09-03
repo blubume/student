@@ -200,10 +200,10 @@
                     <div class="row">
                       <div class="col-xs-8">
                         <div class="avatar chat-avatar"><img src="/img/user_3.jpg"></div>
-                        <div class="avatarName">Чат с <span> Emma Gordon</span></div>
+                        <div class="avatarName"><?=trans("base.chat");?> с <span> Emma Gordon</span></div>
                       </div>
                       <div style="text-align:right;" class="col-xs-4">
-                        <div class="online">ОНЛАЙН </div>
+                        <div class="online"><?=trans("base.online");?> </div>
                       </div>
                     </div>
                   </div>
@@ -224,7 +224,7 @@
                     </div>
                   </div>
                   <div class="send-block">
-                    <textarea placeholder="Введите ваше сообщение..." class="textarea-chat"></textarea>
+                    <textarea placeholder="<?=trans("base.input_message");?>" class="textarea-chat"></textarea>
                     <div class="row">
                       <div class="col-md-8">
                         <div class="uppload-button"></div>
@@ -232,7 +232,7 @@
                         <div class="upploads">																																																								</div>
                       </div>
                       <div class="col-md-4 right-block">
-                        <button type="button" class="btn btn-default send-button">ОТПРАВИТЬ</button>
+                        <button type="button" class="btn btn-default send-button"><?=trans("base.send");?></button>
                       </div>
                     </div>
                   </div>

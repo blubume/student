@@ -42,25 +42,25 @@
                   <div style="font-size:30px;font-family:'Lato';" class="teacher-nickname">Theresa Wong</div>
                   <table class="table info-teacher">
                     <tr>
-                      <td>Профессия</td>
+                      <td><?=trans("base.prof");?></td>
                       <td>Academic English Teacher and Professional Corporate Trainer</td>
                     </tr>
                     <tr>
-                      <td>Интересы</td>
+                      <td><?=trans("base.interes");?></td>
                       <td>
                         <div class="orangeTag">Sport</div>
                       </td>
                     </tr>
                     <tr>
-                      <td>Образование</td>
+                      <td><?=trans("base.educations");?></td>
                       <td>University of Alberta Canada</td>
                     </tr>
                     <tr>
-                      <td>Опыт преподавания</td>
+                      <td><?=trans("base.experi");?></td>
                       <td>14 years</td>
                     </tr>
                     <tr>
-                      <td>Владение языками</td>
+                      <td><?=trans("base.langs");?></td>
                       <td>английский (Носитель языка: США / Канада)</td>
                     </tr>
                   </table>
@@ -68,7 +68,7 @@
               </div>
               <div class="row">
                 <div style="text-align: center;" class="col-md-12">
-                  <button type="button" data-toggle="modal" data-target=".modal-teacher-view" class="btn btn-default play-icon">ПОСМОТРЕТЬ ВИДЕО</button>
+                  <button type="button" data-toggle="modal" data-target=".modal-teacher-view" class="btn btn-default play-icon"><?=trans("base.show_video");?></button>
                 </div>
               </div>
             </div>
